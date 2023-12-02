@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Crud App",
-    "dateExported": "2023-12-01T17:28:22.719Z",
+    "dateExported": "2023-12-02T10:08:30.540Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -69,6 +69,86 @@
                 "raw": "{\r\n  \"content\": \"New tweet\"\r\n}\r\n",
                 "form": []
             },
+            "tests": []
+        },
+        {
+            "_id": "c2d68e90-89c9-412a-9eda-bdb2e09b2e91",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Get All Users",
+            "url": "http://localhost:3000/api/users",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-12-02T09:57:51.155Z",
+            "modified": "2023-12-02T09:57:51.155Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Omkarc\",\n  \"email\": \"omkarc@example.com\",\n  \"password\": \"password1234\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "db8b689b-5deb-45dd-9a2c-6d535af64040",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Get User By ID",
+            "url": "http://localhost:3000/api/users/1",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-12-02T09:58:04.635Z",
+            "modified": "2023-12-02T09:58:04.635Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "134f671a-bfc5-4660-9543-102c102421a5",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Delete User",
+            "url": "http://localhost:3000/api/users/2",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-12-02T09:58:15.752Z",
+            "modified": "2023-12-02T09:58:15.752Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "72b5f3c2-2c4f-4c16-8b1d-dac4ae22a711",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://localhost:3000/api/users/2",
+            "method": "PATCH",
+            "sortNum": 90000,
+            "created": "2023-12-02T09:58:26.540Z",
+            "modified": "2023-12-02T09:58:26.540Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"password\": \"password12345678\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "68cc6a99-5239-4e39-aa35-06593333ac97",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Get all tweets",
+            "url": "http://localhost:3000/api/tweets",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-12-02T09:58:51.423Z",
+            "modified": "2023-12-02T09:58:51.423Z",
+            "headers": [],
+            "params": [],
             "tests": []
         }
     ]

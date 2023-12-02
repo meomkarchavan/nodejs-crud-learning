@@ -1,6 +1,6 @@
 {
     "info": {
-        "_postman_id": "038547d2-64ec-4ce6-82c2-15e3141063cc",
+        "_postman_id": "6d99afaf-ec62-40d7-be6e-8af7f13818f8",
         "name": "Crud App",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
         "description": ""
@@ -96,6 +96,117 @@
                         }
                     },
                     "raw": "{\r\n  \"content\": \"New tweet\"\r\n}\r\n"
+                }
+            }
+        },
+        {
+            "name": "Get All Users",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/users",
+                    "path": [
+                        "api",
+                        "users"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"username\": \"Omkarc\",\n  \"email\": \"omkarc@example.com\",\n  \"password\": \"password1234\"\n}\n"
+                }
+            }
+        },
+        {
+            "name": "Get User By ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/users/1",
+                    "path": [
+                        "api",
+                        "users",
+                        "1"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "Delete User",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:3000/api/users/2",
+                    "path": [
+                        "api",
+                        "users",
+                        "2"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "Update User",
+            "request": {
+                "method": "PATCH",
+                "url": {
+                    "raw": "http://localhost:3000/api/users/2",
+                    "path": [
+                        "api",
+                        "users",
+                        "2"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\r\n  \"password\": \"password12345678\"\r\n}\r\n"
+                }
+            }
+        },
+        {
+            "name": "Get all tweets",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/tweets",
+                    "path": [
+                        "api",
+                        "tweets"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
                 }
             }
         }
