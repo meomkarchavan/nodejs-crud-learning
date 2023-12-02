@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Crud App",
+    "dateExported": "2023-12-01T17:28:22.719Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2d8cae62-2395-4b10-a165-3e5e99e04638",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "New Tweet",
+            "url": "http://localhost:3000/api/tweets/5",
+            "method": "PATCH",
+            "sortNum": 20000,
+            "created": "2023-12-01T17:27:40.664Z",
+            "modified": "2023-12-01T17:27:40.664Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"content\": \"New tweet\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "25a8731c-61d3-4bd0-acda-d5b0420d5947",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Get All",
+            "url": "http://localhost:3000/api/tweets",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-01T17:27:59.145Z",
+            "modified": "2023-12-01T17:27:59.145Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "41e02155-4edf-4316-81e5-edaca30871b7",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://localhost:3000/api/tweets/4",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-12-01T17:28:08.324Z",
+            "modified": "2023-12-01T17:28:08.324Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "483b5be3-6a2a-4f30-94f0-7da63b3fad41",
+            "colId": "7ebc924a-fd47-4036-aa77-dec68d4561e9",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://localhost:3000/api/tweets/5",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2023-12-01T17:28:14.998Z",
+            "modified": "2023-12-01T17:28:14.998Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"content\": \"New tweet\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
